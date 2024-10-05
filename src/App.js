@@ -8,7 +8,7 @@ function App() {
   const Weather = useWeather();
 
   useEffect(()=>{
-    //get current location here
+    //get current location here.
     Weather.fetchcurrentUserLocationData()
   }, [])
   return (
